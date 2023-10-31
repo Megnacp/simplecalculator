@@ -8,18 +8,21 @@
 
 body{
     width:100%;
-    height: 100vh;
+    height: 100%;
     background-image: url('./image/account.jpg');
     background-repeat: no-repeat;
     backdrop-filter: blur(3px);
+    justify-content: center;
+    align-items: center;
+    display: flex;
     
 }
 
 .cal{
     width: 395px;
     height: 550px;
-    margin-left:510px;
-    margin-top:100px ;
+    margin-left:20px;
+    margin-top:750px ;
     background-color: black;
     padding: 50px 30px;
     position: absolute;
