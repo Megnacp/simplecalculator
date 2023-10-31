@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width:100%;
+    height: 100vh;
+    background-image: url('./image/account.jpg');
+    background-repeat: no-repeat;
+    backdrop-filter: blur(3px);
+    
+}
+
+.cal{
+    width: 395px;
+    height: 550px;
+    margin-left:510px;
+    margin-top:100px ;
+    background-color: black;
+    padding: 50px 30px;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px ;
+    
+
+}
+
+.display{
+    width: 100%;
+    
+}
+
+#cc{
+    color: white;
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+     padding: 10px 20px;
+     margin-top: -10px;
+     font-size: larger;
+     margin-left: -10px;
+}
+
+
+.display input{
+    width: 100%;
+    padding: 20px 10px;
+    text-align: right;
+    border: none;
+    font-size: 40px;
+    color:darkgray;
+   
+}
+
+.display input::placeholder{
+    color:darkgray;
+}
+
+.button{
+    margin-top: 60px;
+    
+    
+}
+ 
+
+.button  #b1{
+    padding: 10px;
+    background-color:orange;
+    color: black;
+    width: 80px;
+    height: 40px;
+    font-size:large;
+    border-radius: 5px;
+    
+    
+    
+}
+
+.button #b2{
+    padding: 10px;
+    background-color:rgb(194, 93, 93);
+    color: black;
+    width: 80px;
+    height: 40px;
+    font-size:large;
+    border-radius: 5px;
+}
+
+.button #b3{
+    padding: 10px;
+    background-color:gainsboro;
+    color: black;
+    width: 80px;
+    height: 40px;
+    font-size: large;
+    border-radius: 5px;
+    
+}
+
+.button #b4{
+    padding: 10px;
+    background-color:gainsboro;
+    color:black;
+    width: 80px;
+    height: 40px;
+    font-size: large;
+    border-radius: 5px;
+    
+}
+
+.button #b5{
+    padding: 10px;
+    background-color:gainsboro;
+    color: black;
+    width: 70px;
+    height: 50px;
+    font-size: large;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.button #b6{
+    padding: 10px;
+    background-color:gainsboro;
+    color: black;
+    width: 70px;
+    height: 50px;
+    font-size: large;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.button #b7{
+    padding: 10px;
+    background-color:gainsboro;
+    color: black;
+    width: 70px;
+    height: 50px;
+    font-size: large;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.button #b8{
+    padding: 10px;
+    background-color:gainsboro;
+    color: black;
+    width: 70px;
+    height: 50px;
+    font-size: large;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.button #b9{
+    padding: 10px;
+    background-color:gainsboro;
+    color: black;
+    width: 70px;
+    height: 50px;
+    font-size: large;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-left: 5px;
+    
+}
+
+.button #b10{
+    padding: 10px;
+    background-color:gainsboro;
+    color: black;
+    width: 70px;
+    height: 50px;
+    font-size: large;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 8px;
+    
+}
+
+.button #b11{
+    padding: 10px;
+    background-color:gainsboro;
+    color: black;
+    width: 70px;
+    height: 50px;
+    font-size: large;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 12px;
+    
+}
+
+.button #b12{
+    padding: 10px;
+    background-color:gainsboro;
+    color: black;
+    width: 70px;
+    height: 50px;
+    font-size:large;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.button #b13{
+    padding: 10px;
+    background-color:gainsboro;
+    color: black;
+    width: 70px;
+    height: 50px;
+    font-size:large;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+.button #b14{
+    padding: 10px;
+    background-color:gainsboro;
+    color: black;
+    width: 70px;
+    height: 50px;
+    font-size:large;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 8px;
+    
+}
+
+.button #b15{
+    padding: 10px;
+    background-color:gainsboro;
+    color: black;
+    width: 70px;
+    height: 50px;
+    font-size:large;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 12px;
+    
+}
+
+.button #b16{
+    padding: 10px;
+    background-color:gainsboro;
+    color: black;
+    width: 70px;
+    height: 50px;
+    font-size:large;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.button #b17{
+    padding: 10px;
+    background-color:gainsboro;
+    color: black;
+    width: 70px;
+    height: 50px;
+    font-size:large;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+
+.button #b18{
+    padding: 10px;
+    background-color:gainsboro;
+    color: black;
+    width: 70px;
+    height: 50px;
+    font-size:large;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-left: 8px;
+    
+}
+
+.button #b19{
+    padding: 10px;
+    background-color:gainsboro;
+    color: black;
+    width: 70px;
+    height: 50px;
+    font-size:large;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-left: 12px;
+    
+}
+
+.button #b20{
+    padding: 10px;
+    background-color:orange;
+    color: black;
+    width: 70px;
+    height: 50px;
+    font-size:large;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-left: 10px;
+    
+}
